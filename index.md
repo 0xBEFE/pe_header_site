@@ -40,7 +40,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 
-<table>
 <tbody><tr>
 <th>Offset
 </th>
@@ -61,8 +60,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </td>
 <td>Signature
 </td>
-<td>PE Magic Value
-</td></tr>
+</tr>
 <tr>
 <td><tt>0x04</tt>
 </td>
@@ -70,8 +68,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </td>
 <td>Machine
 </td>
-<td>For a list of values, see <a href="#Machine_Types">machine types section</a>
-</td></tr>
+</tr>
 <tr>
 <td><tt>0x06</tt>
 </td>
@@ -820,8 +817,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 <td>...
 </td>
 <td>...
-</td></tr></tbody></table>
-
-
-
-
+</td></tr></tbody>
