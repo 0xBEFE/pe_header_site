@@ -40,6 +40,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 <table>
+
 <tbody>
 <tr>
 	<th>Offset
@@ -57,81 +58,74 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </th>
 </tr>
 <tr valign="top">
-<td><tt>0x00</tt>
-</td>
-<td><tt>DWORD</tt>
-</td>
-<td>Signature
-</td>
-<td>PE Magic Value
-</td></tr>
+	<td><tt>0x00</tt>
+	</td>
+	<td><tt>DWORD</tt>
+	</td>
+	<td>Signature
+	</td>
+	<td>PE Magic Value
+	</td></tr>
+	<tr>
+	<td><tt>0x04</tt>
+	</td>
+	<td><tt>WORD</tt>
+	</td>
+	<td>Machine
+	</td>
+	</tr>
+	<tr>
+	<td><tt>0x06</tt>
+	</td>
+	<td><tt>WORD</tt>
+	</td>
+	<td>NumberOfSections
+	</td>
+	</tr>
+	<tr>
+	<td><tt>0x08</tt>
+	</td>
+	<td><tt>DWORD</tt>
+	</td>
+	<td>TimeDateStamp
+	</td>
+	</tr>
+	<tr>
+	<td><tt>0x0C</tt>
+	</td>
+	<td><tt>DWORD</tt>
+	</td>
+	<td>PointerToSymbolTable
+	</td>
+	</tr>
+	<tr>
+	<td><tt>0x10</tt>
+	</td>
+	<td><tt>DWORD</tt>
+	</td>
+	<td>NumberOfSymbols
+	</td>
+	</tr>
+	<tr>
+	<td><tt>0x14</tt>
+	</td>
+	<td><tt>WORD</tt>
+	</td>
+	<td>SizeOfOptionalHeader
+	</td>
+	</tr>
+	<tr>
+	<td><tt>0x16</tt>
+	</td>
+	<td><tt>WORD</tt>
+	</td>
+	<td>Characteristics
+	</td>
+</tr>
 <tr>
-<td><tt>0x04</tt>
-</td>
-<td><tt>WORD</tt>
-</td>
-<td>Machine
-</td>
-<td>For a list of values, see <a href="#Machine_Types">machine types section</a>
-</td></tr>
-<tr>
-<td><tt>0x06</tt>
-</td>
-<td><tt>WORD</tt>
-</td>
-<td>NumberOfSections
-</td>
-<td>Number Of Sections
-</td></tr>
-<tr>
-<td><tt>0x08</tt>
-</td>
-<td><tt>DWORD</tt>
-</td>
-<td>TimeDateStamp
-</td>
-<td>The low 32 bits of the number of seconds since 00:00 January 1, 1970 (a C run-time time_t value), that indicates when the file was created.
-</td></tr>
-<tr>
-<td><tt>0x0C</tt>
-</td>
-<td><tt>DWORD</tt>
-</td>
-<td>PointerToSymbolTable
-</td>
-<td>The file offset of the COFF symbol table, or zero if no COFF symbol table is present. This value should be zero for an image because COFF debugging information is deprecated.
-</td></tr>
-<tr>
-<td><tt>0x10</tt>
-</td>
-<td><tt>DWORD</tt>
-</td>
-<td>NumberOfSymbols
-</td>
-<td>The number of entries in the symbol table. This data can be used to locate the string table, which immediately follows the symbol table. This value should be zero for an image because COFF debugging information is deprecated.
-</td></tr>
-<tr>
-<td><tt>0x14</tt>
-</td>
-<td><tt>WORD</tt>
-</td>
-<td>SizeOfOptionalHeader
-</td>
-<td>The size of the optional header, which is required for executable files but not for object files. This value should be zero for an object file.
-</td></tr>
-<tr>
-<td><tt>0x16</tt>
-</td>
-<td><tt>WORD</tt>
-</td>
-<td>Characteristics
-</td>
-<td>The flags that indicate the attributes of the file. For list of values, refer to the <a href="#Image_Characteristics">Image Characteristics section</a>.
-</td></tr>
-<tr>
-<th colspan="4">
-<h3><span id="Optional_Header_(0x18)"></span><span class="mw-headline" id="Optional_Header_.280x18.29">Optional Header (<tt>0x18</tt>)</span></h3>
-</th></tr>
+	<th colspan="4">
+		<h3><span id="Optional_Header_(0x18)"></span><span class="mw-headline" id="Optional_Header_.280x18.29">Optional Header (<tt>0x18</tt>)</span></h3>
+	</th></tr>
 <tr>
 <td><tt>0x18</tt>
 </td>
@@ -823,4 +817,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </td>
 <td>...
 </td></tr></tbody>
+
 </table>
