@@ -79,8 +79,6 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 	</td>
 	<td><tt>WORD</tt>
 	</td>
-	<td>NumberOfSections
-	</td>
 	</tr>
 	<tr>
 	<td><tt>0x08</tt>
