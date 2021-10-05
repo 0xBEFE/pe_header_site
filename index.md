@@ -64,8 +64,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 	</td>
 	<td>Signature
 	</td>
-	<td>PE Magic Value
-	</td></tr>
+	</tr>
 	<tr>
 	<td><tt>0x04</tt>
 	</td>
