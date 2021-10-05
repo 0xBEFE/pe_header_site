@@ -39,7 +39,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 
-
+<table>
 <tbody>
 <tr>
 	<th>Offset
@@ -823,3 +823,4 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </td>
 <td>...
 </td></tr></tbody>
+</table>
