@@ -40,19 +40,22 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 
 
 
-<tbody><tr>
-<th>Offset
-</th>
-<th>Size
-</th>
-<th>Member
-</th>
-<th>Meaning
-</th></tr>
+<tbody>
 <tr>
-<th colspan="4">
-<h3><span id="Image_File_Header_(0x00)"></span><span class="mw-headline" id="Image_File_Header_.280x00.29">Image File Header (<tt>0x00</tt>)</span></h3>
-</th></tr>
+	<th>Offset
+	</th>
+	<th>Size
+	</th>
+	<th>Member
+	</th>
+	<th>Meaning
+	</th>
+</tr>
+<tr>
+	<th colspan="4">
+	<h3><span id="Image_File_Header_(0x00)"></span><span class="mw-headline" id="Image_File_Header_.280x00.29">Image File Header (<tt>0x00</tt>)</span></h3>
+</th>
+</tr>
 <tr valign="top">
 <td><tt>0x00</tt>
 </td>
@@ -60,7 +63,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </td>
 <td>Signature
 </td>
-</tr>
+<td>PE Magic Value
+</td></tr>
 <tr>
 <td><tt>0x04</tt>
 </td>
@@ -68,7 +72,8 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 </td>
 <td>Machine
 </td>
-</tr>
+<td>For a list of values, see <a href="#Machine_Types">machine types section</a>
+</td></tr>
 <tr>
 <td><tt>0x06</tt>
 </td>
